@@ -31,4 +31,5 @@ header .header-content
 {
 	height: 640px;
 	background: url('img/header-bg.png');
+	padding: 0 120px;
 }
