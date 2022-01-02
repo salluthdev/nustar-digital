@@ -10,7 +10,7 @@ body
 {
 	font-family: 'Helvetica Neue', sans-serif;
 }
-header
+header .header-top
 {
 	display: flex;
 	justify-content: space-between;
