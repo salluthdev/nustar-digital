@@ -16,5 +16,6 @@ header button
 {
 	background: #18abe3;
 	border: none;
+	border-radius: 10px;
 	padding: 8px 22px;
 }
