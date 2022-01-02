@@ -29,5 +29,6 @@ header .header-top button
 }
 header .header-content
 {
+	height: 640px;
 	background: url('img/header-bg.png');
 }
