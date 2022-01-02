@@ -6,6 +6,10 @@
 	box-sizing: border-box;
 	scroll-behavior: smooth;
 }
+body
+{
+	font-family: 'Helvetica Neue', sans-serif;
+}
 header
 {
 	display: flex;
@@ -19,5 +23,6 @@ header button
 	border: none;
 	border-radius: 10px;
 	padding: 8px 22px;
+	font-family: 'Helvetica Neue', sans-serif;
 	color: #fff;
 }
