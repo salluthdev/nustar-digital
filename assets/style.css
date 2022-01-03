@@ -16,7 +16,8 @@ header .header-top
 	align-items: center;
 	padding: 16px 120px;
 }
-header .header-top button
+header .header-top button,
+.company .company-content button
 {
 	background: #18abe3;
 	border: none;
@@ -67,6 +68,8 @@ header .header-content p span
 	font-size: 52px;
 	color: #004e84;
 	text-align: center;
+	line-height: 62.4px;
+	margin-bottom: 34px;
 }
 .company .company-content h1 span
 {
