@@ -41,6 +41,7 @@ header .header-content
 	align-items: center;
 	background: url('img/header-bg.png');
 	padding: 0 120px 60px;
+	border-bottom: 1px solid #fff;
 }
 header .header-content p
 {
