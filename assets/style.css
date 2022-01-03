@@ -66,8 +66,8 @@ header .header-content p span
 .company .company-content h1
 {
 	font-size: 52px;
-	color: #004e84;
 	text-align: center;
+	color: #004e84;
 	line-height: 62.4px;
 	margin-bottom: 34px;
 }
@@ -93,6 +93,7 @@ header .header-content p span
 .our-stories .card
 {
 	width: 980px;
+	display: flex;
 	background: #fff;
 	padding: 46px 100px;
 	margin: 46px auto;
@@ -106,4 +107,19 @@ header .header-content p span
 	object-fit: cover;
 	object-position: center;
 	border-radius: 50%;
+}
+.our-stories .card .content
+{
+	margin-left: 46px;
+}
+.our-stories .card .content p
+{
+	font-size: 14px;
+	text-align: left;
+	line-height: 22.4px;
+}
+.our-stories .card .content h4
+{
+	text-align: left;
+	margin-top: 46px;
 }
