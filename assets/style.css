@@ -176,6 +176,12 @@ header .header-content p span
 .member-login
 {
 	display: flex;
+	justify-content: space-between;
 	align-items: center;
 	padding: 100px 120px;
+}
+.member-login h1
+{
+	font-size: 40px;
+	color: #004e84
 }
