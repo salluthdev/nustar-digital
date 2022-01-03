@@ -96,4 +96,14 @@ header .header-content p span
 	background: #fff;
 	padding: 46px 100px;
 	margin: 46px auto;
+	border-radius: 20px;
+	box-shadow: 0 4px 40px 0 rgba(0, 0, 0, 0.03);
+}
+.our-stories .card img
+{
+	width: 220px;
+	height: 220px;
+	object-fit: cover;
+	object-position: center;
+	border-radius: 50%;
 }
