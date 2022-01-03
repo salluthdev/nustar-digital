@@ -53,3 +53,7 @@ header .header-content p span
 	display: flex;
 	padding: 100px 120px;
 }
+.company .company-content
+{
+	display: flex;
+}
