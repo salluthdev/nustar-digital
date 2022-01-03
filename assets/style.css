@@ -176,5 +176,6 @@ header .header-content p span
 .member-login
 {
 	display: flex;
+	align-items: center;
 	padding: 100px 120px;
 }
