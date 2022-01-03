@@ -60,3 +60,7 @@ header .header-content p span
 	flex-direction: column;
 	align-items: center;
 }
+.company .company-content h1
+{
+	text-align: center;
+}
