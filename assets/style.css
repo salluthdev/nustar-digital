@@ -9,6 +9,7 @@
 body
 {
 	font-family: 'Helvetica Neue', sans-serif;
+	font-family: 'Helvetica 65 Medium', sans-serif;
 }
 header .header-top
 {
@@ -36,4 +37,5 @@ header .header-content
 header .header-content p
 {
 	font-size: 28px;
+	font-weight: 400;
 }
