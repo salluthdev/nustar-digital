@@ -79,4 +79,10 @@ header .header-content p span
 {
 	background: #fafafa;
 	padding: 60px 120px;
+	text-align: center;
+}
+.our-stories h1
+{
+	font-size: 52px;
+	color: #004e84;
 }
