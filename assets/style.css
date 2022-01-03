@@ -52,6 +52,7 @@ header .header-content p span
 {
 	display: flex;
 	align-items: center;
+	gap: 8%;
 	padding: 100px 120px;
 }
 .company .company-content
