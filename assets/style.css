@@ -34,7 +34,7 @@ header .header-content
 	justify-content: space-between;
 	align-items: center;
 	background: url('img/header-bg.png');
-	padding: 100px 120px 160px;
+	padding: 0 120px 60px;
 }
 header .header-content p
 {
