@@ -63,6 +63,7 @@ header .header-content p span
 }
 .company .company-content h1
 {
-	text-align: center;
+	font-size: 52px;
 	color: #004e84;
+	text-align: center;
 }
