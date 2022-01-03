@@ -57,4 +57,5 @@ header .header-content p span
 {
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 }
