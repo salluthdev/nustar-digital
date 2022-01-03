@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
 *
 {
 	margin: 0;
@@ -120,13 +121,26 @@ header .header-content p span
 }
 .our-stories .card .content
 {
+	position: relative;
 	margin-left: 46px;
+}
+.our-stories .card .content span
+{
+	position: absolute;
+	top: -26px;
+	left: -2px;
+	font-family: 'Inter', sans-serif;
+	font-size: 150px;
+	font-weight: bold;
+	text-align: left;
+  	color: #18abe3;
 }
 .our-stories .card .content p
 {
 	font-size: 14px;
 	text-align: left;
 	line-height: 22.4px;
+	margin-top: 70px;
 }
 .our-stories .card .content h4
 {
