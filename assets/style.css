@@ -90,3 +90,10 @@ header .header-content p span
 {
 	color: #3a4856;
 }
+.our-stories .card
+{
+	width: 980px;
+	background: #fff;
+	padding: 46px 100px;
+	margin: 46px auto;
+}
