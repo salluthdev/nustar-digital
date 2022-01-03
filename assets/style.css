@@ -31,6 +31,7 @@ header .header-top button
 header .header-content
 {
 	height: 640px;
+	display: flex;
 	background: url('img/header-bg.png');
 	padding: 0 120px;
 }
