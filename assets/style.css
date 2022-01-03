@@ -23,10 +23,15 @@ header .header-top button,
 	border: none;
 	border-radius: 10px;
 	padding: 10px 22px;
+}
+header .header-top button a,
+.company .company-content button a
+{
 	font-family: Helvetica, Sans-Serif;
 	font-size: 16px;
 	font-weight: 700;
 	color: #fff;
+	text-decoration: unset;
 }
 header .header-content
 {
@@ -90,6 +95,10 @@ header .header-content p span
 {
 	color: #3a4856;
 }
+.swiper
+{
+	width: 100%;
+}
 .our-stories .card
 {
 	width: 980px;
@@ -122,4 +131,30 @@ header .header-content p span
 {
 	text-align: left;
 	margin-top: 46px;
+}
+.swiper-button-prev,
+.swiper-button-next
+{
+	width: 40px;
+	height: 40px;
+	color: #aeaeae;
+	border: 1px solid #aeaeae;
+	border-radius: 50%;
+}
+.swiper-button-prev::after,
+.swiper-button-next::after
+{
+	font-size: 16px;
+}
+.swiper-pagination-bullet
+{
+	width: 14px;
+	height: 14px;
+	background: unset;
+	border: 1px solid #aeaeae;
+	opacity: unset;
+}
+.swiper-pagination-bullet-active
+{
+	background: #aeaeae;
 }
