@@ -18,7 +18,8 @@ header .header-top
 	padding: 16px 120px;
 }
 header .header-top button,
-.company .company-content button
+.company .company-content button,
+.member-login .content button
 {
 	background: #18abe3;
 	border: none;
@@ -26,7 +27,8 @@ header .header-top button,
 	padding: 10px 22px;
 }
 header .header-top button a,
-.company .company-content button a
+.company .company-content button a,
+.member-login .content button a
 {
 	font-family: Helvetica, Sans-Serif;
 	font-size: 16px;
@@ -36,6 +38,7 @@ header .header-top button a,
 }
 header .header-content
 {
+	position: relative;
 	height: 640px;
 	display: flex;
 	justify-content: space-between;
@@ -43,6 +46,12 @@ header .header-content
 	background: url('img/header-bg.png');
 	padding: 0 120px 60px;
 	border-bottom: 1px solid #fff;
+}
+.ellipse-1
+{
+	position: absolute;
+	top: 110px;
+	left: 24px;
 }
 header .header-content p
 {
@@ -55,6 +64,15 @@ header .header-content p
 header .header-content p span
 {
 	font-weight: 700;
+}
+img#back-to-top
+{
+	position: fixed;
+	bottom: 40px;
+	right: 40px;
+	display: none;
+	cursor: pointer;
+	z-index: 10;
 }
 .company
 {
@@ -84,9 +102,16 @@ header .header-content p span
 }
 .our-stories
 {
-	background: #fafafa;
-	padding: 60px 120px;
+	position: relative;
+	background: #f8f8f8;
+	padding: 60px 220px;
 	text-align: center;
+}
+.ellipse-2
+{
+	position: absolute;
+	top: -50px;
+	left: 0;
 }
 .our-stories h1
 {
@@ -96,10 +121,6 @@ header .header-content p span
 .our-stories p
 {
 	color: #3a4856;
-}
-.swiper
-{
-	width: 100%;
 }
 .our-stories .card
 {
@@ -147,6 +168,14 @@ header .header-content p span
 	text-align: left;
 	margin-top: 46px;
 }
+.swiper-button-prev
+{
+	left: 120px;
+}
+.swiper-button-next
+{
+	right: 120px;
+}
 .swiper-button-prev,
 .swiper-button-next
 {
@@ -155,6 +184,7 @@ header .header-content p span
 	color: #aeaeae;
 	border: 1px solid #aeaeae;
 	border-radius: 50%;
+	transform: translateY(50%);
 }
 .swiper-button-prev::after,
 .swiper-button-next::after
@@ -173,15 +203,76 @@ header .header-content p span
 {
 	background: #aeaeae;
 }
+.ellipse-3
+{
+	position: absolute;
+	bottom: -24px;
+	right: 74px;
+}
 .member-login
 {
+	position: relative;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	padding: 100px 120px;
 }
-.member-login h1
+.member-login .content
+{
+	width: 374px;
+}
+.member-login .content,
+.member-login .content .form
+{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.member-login .content h1
 {
 	font-size: 40px;
 	color: #004e84
+}
+.member-login .content .form
+{
+	width: 100%;
+	margin-top: 40px;
+}
+.member-login .content .form input
+{
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid #cecece;
+	outline: none;
+	padding: 10px 0;
+	font-size: 16px;
+	color: #3a4856;
+}
+.member-login .content .form input:last-child
+{
+	margin-top: 32px;
+}
+.member-login .content .form input::placeholder
+{
+	color: #3a4856;
+}
+.member-login .content button
+{
+	margin-top: 40px;
+}
+.ellipse-4
+{
+	position: absolute;
+	bottom: 60px;
+	left: 50%;
+}
+footer
+{
+	background: #f8f8f8;
+	padding: 20px 120px;
+}
+footer p
+{
+	color: #3a4856;
+	line-height: 1.6;
 }
