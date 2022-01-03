@@ -56,4 +56,5 @@ header .header-content p span
 .company .company-content
 {
 	display: flex;
+	flex-direction: column;
 }
