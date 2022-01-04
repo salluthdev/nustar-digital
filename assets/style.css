@@ -295,7 +295,7 @@ footer p
 	}
 	.our-stories
 	{
-		padding: 60px 180px;
+		padding: 60px 140px;
 	}
 	.swiper-button-prev
 	{
@@ -327,7 +327,7 @@ footer p
 	}
 	.our-stories
 	{
-		padding: 60px 140px;
+		padding: 60px 100px;
 	}
 	.swiper-button-prev
 	{
@@ -374,5 +374,9 @@ footer p
 	.company .company-content button
 	{
 		display: none;
+	}
+	.our-stories
+	{
+		padding: 60px;
 	}
 }
