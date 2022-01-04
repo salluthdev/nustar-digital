@@ -375,6 +375,11 @@ footer p
 	{
 		flex-direction: column-reverse;
 	}
+	.company img, .our-stories .card,
+	.member-login img
+	{
+		max-width: 100%;
+	}
 	.company .company-content h1
 	{
 		width: 600px;
@@ -386,10 +391,6 @@ footer p
 	.our-stories
 	{
 		padding: 60px;
-	}
-	.our-stories .card
-	{
-		max-width: 100%;
 	}
 	.swiper-button-prev,
 	.swiper-button-next
