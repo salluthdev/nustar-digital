@@ -396,6 +396,10 @@ footer p
 	{
 		display: none;
 	}
+	.company button.hidden
+	{
+		display: block;
+	}
 	.our-stories
 	{
 		padding: 60px;
