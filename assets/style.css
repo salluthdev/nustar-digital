@@ -199,15 +199,16 @@ img#back-to-top
 {
 	width: 40px;
 	height: 40px;
-	color: #3a4856;
-	border: 1px solid #3a4856;
-	border-radius: 50%;
-	transform: translateY(50%);
 }
 .swiper-button-prev::after,
 .swiper-button-next::after
 {
-	font-size: 16px;
+	color: #3a4856;
+	border: 1px solid #3a4856;
+	border-radius: 50%;
+	padding: 14px 18.6px;
+	transform: translateY(50%);
+	font-size: 20px;
 }
 .swiper-pagination-bullet
 {
@@ -401,11 +402,9 @@ footer p
 	{
 		flex-direction: column;
 	}
-	.swiper-button-prev,
-	.swiper-button-next
+	.swiper
 	{
-		transform: unset;
-		margin-top: 270px;
+		position: relative;
 	}
 	.member-login .content
 	{
