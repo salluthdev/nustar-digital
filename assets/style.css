@@ -412,6 +412,7 @@ footer p
 	.our-stories .card
 	{
 		flex-direction: column;
+		padding: 24px 40px;
 	}
 	.swiper
 	{
