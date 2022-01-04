@@ -309,3 +309,35 @@ footer p
 		padding: 20px 80px;
 	}
 }
+
+@media (max-width: 1267px)
+{
+	header .header-top
+	{
+		padding: 16px 40px;
+	}
+	header .header-content
+	{
+		padding: 0 80px 60px;
+	}
+	.company, .member-login
+	{
+		padding: 100px 80px;
+	}
+	.our-stories
+	{
+		padding: 60px 180px;
+	}
+	.swiper-button-prev
+	{
+		left: 80px;
+	}
+	.swiper-button-next
+	{
+		right: 80px;
+	}
+	footer
+	{
+		padding: 20px 80px;
+	}
+}
