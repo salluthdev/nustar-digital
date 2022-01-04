@@ -385,8 +385,7 @@ footer p
 	{
 		flex-direction: column-reverse;
 	}
-	.company img, .our-stories .card,
-	.member-login img
+	.company img, .member-login img
 	{
 		max-width: 100%;
 	}
@@ -488,7 +487,8 @@ footer p
 	}
 	header .header-top button a,
 	.company button a,
-	.member-login .content button a
+	.member-login .content button a,
+	.our-stories p, .member-login .content .form input
 	{
 		font-size: 14px;
 	}
@@ -502,10 +502,35 @@ footer p
 		line-height: 30px;
 	}
 	.company .company-content h1,
-	.our-stories h1
+	.our-stories h1, .member-login .content h1
 	{
 		font-size: 28px;
 		line-height: 33.6px;
+	}
+	.swiper-slide
+	{
+		height: 640px;
+	}
+	.our-stories .card
+	{
+		width: 344px;
+		height: 504px;
+	}
+	.swiper-button-prev
+	{
+		left: 60px;
+	}
+	.swiper-button-next
+	{
+		right: 60px;
+	}
+	.ellipse-4
+	{
+		display: none;
+	}
+	footer p
+	{
+		font-size: 10px;
 	}
 }
 
