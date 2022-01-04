@@ -296,4 +296,12 @@ footer p
 	{
 		padding: 60px 180px;
 	}
+	.swiper-button-prev
+	{
+		left: 80px;
+	}
+	.swiper-button-next
+	{
+		right: 80px;
+	}
 }
