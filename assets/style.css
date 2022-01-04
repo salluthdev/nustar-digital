@@ -350,6 +350,10 @@ footer p
 		flex-direction: column;
 		padding: 40px 40px 60px;
 	}
+	header .header-content
+	{
+		justify-content: center;
+	}
 	header .header-content p
 	{
 		text-align: center;
