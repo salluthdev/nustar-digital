@@ -284,4 +284,8 @@ footer p
 	{
 		padding: 16px 80px;
 	}
+	header .header-content
+	{
+		padding: 0 80px 60px;
+	}
 }
