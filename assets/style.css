@@ -76,9 +76,12 @@ img#back-to-top
 }
 .company
 {
+	gap: 8%;
+}
+.company, .member-login
+{
 	display: flex;
 	align-items: center;
-	gap: 8%;
 	padding: 100px 120px;
 }
 .company .company-content
@@ -213,10 +216,7 @@ img#back-to-top
 .member-login
 {
 	position: relative;
-	display: flex;
 	justify-content: space-between;
-	align-items: center;
-	padding: 100px 120px;
 }
 .member-login .content
 {
