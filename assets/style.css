@@ -43,6 +43,7 @@ header .header-content
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	gap: 40px;
 	background: url('img/header-bg.png');
 	padding: 0 120px 60px;
 	border-bottom: 1px solid #fff;
