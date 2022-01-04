@@ -399,6 +399,7 @@ footer p
 	.company button.hidden
 	{
 		display: block;
+		margin-top: 40px;
 	}
 	.our-stories
 	{
