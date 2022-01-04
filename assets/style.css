@@ -411,6 +411,7 @@ footer p
 	}
 	.our-stories .card
 	{
+		width: 480px;
 		flex-direction: column;
 		padding: 40px 24px;
 	}
