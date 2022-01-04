@@ -392,6 +392,14 @@ footer p
 	{
 		padding: 60px;
 	}
+	.swiper-slide
+	{
+		height: unset;
+	}
+	.our-stories .card
+	{
+		flex-direction: column;
+	}
 	.swiper-button-prev,
 	.swiper-button-next
 	{
