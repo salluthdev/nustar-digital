@@ -416,8 +416,8 @@ footer p
 	}
 	.our-stories .card img
 	{
-		width: 106px;
-		height: 106px;
+		width: 106.5px;
+		height: 106.5px;
 	}
 	.our-stories .card .content
 	{
@@ -426,6 +426,10 @@ footer p
 	.our-stories .card .content span
 	{
 		top: -182px;
+	}
+	.our-stories .card .content p
+	{
+		margin-top: 21px;
 	}
 	.member-login .content
 	{
