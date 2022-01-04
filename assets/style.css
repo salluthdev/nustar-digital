@@ -42,7 +42,7 @@ header .header-content
 	display: flex;
 	align-items: center;
 	background: url('img/header-bg.png');
-	padding: 100px 120px 160px;
+	padding: 0 120px 60px;
 	border-bottom: 1px solid #fff;
 }
 header .header-content, .member-login
@@ -287,7 +287,7 @@ footer p
 	}
 	header .header-content
 	{
-		padding: 100 80px 160px;
+		padding: 0 80px 60px;
 	}
 	.company, .member-login
 	{
@@ -319,7 +319,7 @@ footer p
 	}
 	header .header-content
 	{
-		padding: 100px 40px 160px;
+		padding: 0 40px 60px;
 	}
 	.company, .member-login
 	{
@@ -348,5 +348,6 @@ footer p
 	header .header-content
 	{
 		flex-direction: column;
+		padding: 60px 40px 90px;
 	}
 }
