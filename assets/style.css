@@ -288,7 +288,7 @@ footer p
 	{
 		padding: 0 80px 60px;
 	}
-	.company
+	.company, .member-login
 	{
 		padding: 100px 80px;
 	}
@@ -303,9 +303,5 @@ footer p
 	.swiper-button-next
 	{
 		right: 80px;
-	}
-	.member-login
-	{
-		padding: 100px 80px;
 	}
 }
