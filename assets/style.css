@@ -9,6 +9,7 @@
 body
 {
 	font-family: Helvetica, Sans-Serif;
+	overflow-x: hidden;
 }
 header .header-top
 {
@@ -144,6 +145,7 @@ img#back-to-top
 .our-stories .card
 {
 	width: 980px;
+	height: 405px;
 	display: flex;
 	background: #fff;
 	padding: 46px 100px;
@@ -407,11 +409,12 @@ footer p
 	}
 	.swiper-slide
 	{
-		height: unset;
+		height: 610px;
 	}
 	.our-stories .card
 	{
 		width: 480px;
+		height: 496px;
 		flex-direction: column;
 		padding: 40px 24px;
 	}
@@ -426,11 +429,26 @@ footer p
 	}
 	.our-stories .card .content span
 	{
-		top: -182px;
+		top: -196px;
 	}
 	.our-stories .card .content p
 	{
 		margin-top: 21px;
+	}
+	.swiper-button-prev
+	{
+		left: 30%;
+	}
+	.swiper-button-next
+	{
+		right: 30%;
+	}
+	.swiper-button-prev::after,
+	.swiper-button-next::after
+	{
+		position: absolute;
+		bottom: -350px;
+		transform: unset;
 	}
 	.member-login .content
 	{
@@ -438,7 +456,31 @@ footer p
 	}
 }
 
-@media (max-width: 476px)
+@media (max-width: 627px)
+{
+	header .header-top
+	{
+		padding: 16px;
+	}
+	header .header-content
+	{
+		padding: 0 16px 60px;
+	}
+	.company, .member-login
+	{
+		padding: 100px 16px;
+	}
+	.our-stories
+	{
+		padding: 60px 16px;
+	}
+	footer
+	{
+		padding: 20px 16px;
+	}
+}
+
+@media (max-width: 601px)
 {
 	header .header-top img
 	{
@@ -450,14 +492,33 @@ footer p
 	{
 		font-size: 14px;
 	}
+	header .header-content img:last-child
+	{
+		width: 100%;
+	}
 	header .header-content p
 	{
 		font-size: 20px;
 		line-height: 30px;
 	}
-	.company .company-content h1
+	.company .company-content h1,
+	.our-stories h1
 	{
 		font-size: 28px;
 		line-height: 33.6px;
 	}
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5){
+
+  html,
+  body{
+    width:100%;
+    overflow-x:hidden;
+  }
+
 }
