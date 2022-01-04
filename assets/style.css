@@ -131,6 +131,7 @@ img#back-to-top
 	margin: 46px auto;
 	border-radius: 20px;
 	box-shadow: 0 4px 40px 0 rgba(0, 0, 0, 0.03);
+	cursor: grab;
 }
 .our-stories .card img
 {
