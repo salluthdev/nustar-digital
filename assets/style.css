@@ -366,4 +366,8 @@ footer p
 	{
 		flex-direction: column-reverse;
 	}
+	.company button
+	{
+		display: none;
+	}
 }
