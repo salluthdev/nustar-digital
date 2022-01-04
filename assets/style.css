@@ -362,4 +362,8 @@ footer p
 	{
 		max-width: 480px;
 	}
+	.company
+	{
+		flex-direction: column-reverse;
+	}
 }
