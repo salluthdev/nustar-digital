@@ -356,6 +356,7 @@ footer p
 	}
 	header .header-content p
 	{
+		width: 100%;
 		text-align: center;
 	}
 	header .header-content img
@@ -366,7 +367,11 @@ footer p
 	{
 		flex-direction: column-reverse;
 	}
-	.company button
+	.company .company-content h1
+	{
+		width: 600px;
+	}
+	.company .company-content button
 	{
 		display: none;
 	}
