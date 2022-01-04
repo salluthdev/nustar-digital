@@ -42,6 +42,7 @@ header .header-content
 	display: flex;
 	align-items: center;
 	background: url('img/header-bg.png');
+	background-size: cover;
 	padding: 0 120px 60px;
 	border-bottom: 1px solid #fff;
 }
