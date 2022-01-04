@@ -277,3 +277,11 @@ footer p
 	color: #3a4856;
 	line-height: 1.6;
 }
+
+@media (max-width: 1400px)
+{
+	header .header-top
+	{
+		padding: 16px 80px;
+	}
+}
