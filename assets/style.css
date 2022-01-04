@@ -38,15 +38,18 @@ header .header-top button a,
 }
 header .header-content
 {
-	position: relative;
 	height: 640px;
 	display: flex;
-	justify-content: space-between;
 	align-items: center;
-	gap: 40px;
 	background: url('img/header-bg.png');
 	padding: 0 120px 60px;
 	border-bottom: 1px solid #fff;
+}
+header .header-content, .member-login
+{
+	position: relative;
+	justify-content: space-between;
+	gap: 40px;
 }
 .ellipse-1
 {
@@ -213,12 +216,6 @@ img#back-to-top
 	position: absolute;
 	bottom: -24px;
 	right: 74px;
-}
-.member-login
-{
-	position: relative;
-	justify-content: space-between;
-	gap: 40px;
 }
 .member-login .content
 {
