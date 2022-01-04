@@ -26,6 +26,10 @@ header .header-top button,
 	border-radius: 10px;
 	padding: 10px 22px;
 }
+.company button.hidden
+{
+	display: none;
+}
 header .header-top button a,
 .company button a,
 .member-login .content button a
