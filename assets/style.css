@@ -417,5 +417,6 @@ footer p
 	header .header-content p
 	{
 		font-size: 20px;
+		line-height: 30px;
 	}
 }
