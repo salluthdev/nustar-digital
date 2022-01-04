@@ -304,4 +304,8 @@ footer p
 	{
 		right: 80px;
 	}
+	footer
+	{
+		padding: 20px 80px;
+	}
 }
