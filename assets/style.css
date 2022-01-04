@@ -412,7 +412,12 @@ footer p
 	.our-stories .card
 	{
 		flex-direction: column;
-		padding: 24px 40px;
+		padding: 40px 24px;
+	}
+	.our-stories .card img
+	{
+		width: 106px;
+		height: 106px;
 	}
 	.our-stories .card .content
 	{
@@ -420,8 +425,7 @@ footer p
 	}
 	.our-stories .card .content span
 	{
-		top: -296px;
-		left: -2px;
+		top: -182px;
 	}
 	.member-login .content
 	{
