@@ -218,6 +218,7 @@ img#back-to-top
 {
 	position: relative;
 	justify-content: space-between;
+	gap: 40px;
 }
 .member-login .content
 {
