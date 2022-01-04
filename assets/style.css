@@ -406,4 +406,8 @@ footer p
 		transform: unset;
 		margin-top: 270px;
 	}
+	.member-login .content
+	{
+		width: 100%;
+	}
 }
