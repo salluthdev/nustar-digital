@@ -420,17 +420,11 @@ footer p
 	{
 		width: 180px;
 	}
-	header .header-top button,
-	.company .company-content button,
-	.member-login .content button
-	{
-		padding: 10px 22px;
-	}
 	header .header-top button a,
 	.company .company-content button a,
 	.member-login .content button a
 	{
-		font-size: 12px;
+		font-size: 14px;
 	}
 	header .header-content p
 	{
