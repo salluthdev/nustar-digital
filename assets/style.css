@@ -18,7 +18,7 @@ header .header-top
 	padding: 16px 120px;
 }
 header .header-top button,
-.company .company-content button,
+.company button,
 .member-login .content button
 {
 	background: #18abe3;
@@ -27,7 +27,7 @@ header .header-top button,
 	padding: 10px 22px;
 }
 header .header-top button a,
-.company .company-content button a,
+.company button a,
 .member-login .content button a
 {
 	font-family: Helvetica, Sans-Serif;
@@ -388,7 +388,7 @@ footer p
 	{
 		width: 600px;
 	}
-	.company .company-content button
+	.company button
 	{
 		display: none;
 	}
@@ -414,14 +414,14 @@ footer p
 	}
 }
 
-@media (max-width: 676px)
+@media (max-width: 476px)
 {
 	header .header-top img
 	{
 		width: 180px;
 	}
 	header .header-top button a,
-	.company .company-content button a,
+	.company button a,
 	.member-login .content button a
 	{
 		font-size: 14px;
@@ -430,5 +430,10 @@ footer p
 	{
 		font-size: 20px;
 		line-height: 30px;
+	}
+	.company .company-content h1
+	{
+		font-size: 28px;
+		line-height: 33.6px;
 	}
 }
