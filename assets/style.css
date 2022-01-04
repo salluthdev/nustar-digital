@@ -414,9 +414,9 @@ footer p
 		flex-direction: column;
 		padding: 24px 40px;
 	}
-	.swiper
+	.our-stories .card .content
 	{
-		position: relative;
+		margin-left: unset;
 	}
 	.member-login .content
 	{
