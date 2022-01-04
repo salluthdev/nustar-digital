@@ -348,6 +348,14 @@ footer p
 	header .header-content
 	{
 		flex-direction: column;
-		padding: 60px 40px 90px;
+		padding: 40px 40px 60px;
+	}
+	header .header-content p
+	{
+		text-align: center;
+	}
+	header .header-content img
+	{
+		max-width: 480px;
 	}
 }
