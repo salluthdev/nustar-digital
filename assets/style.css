@@ -342,3 +342,11 @@ footer p
 		padding: 20px 40px;
 	}
 }
+
+@media (max-width: 1127px)
+{
+	header .header-content
+	{
+		flex-direction: column;
+	}
+}
