@@ -18,8 +18,7 @@ header .header-top
 	align-items: center;
 	padding: 16px 120px;
 }
-header .header-top a,
-.company button,
+header .header-top a, .company a,
 .member-login .content button
 {
 	background: #18abe3;
@@ -27,12 +26,11 @@ header .header-top a,
 	border-radius: 10px;
 	padding: 10px 22px;
 }
-.company button.hidden
+.company a.hidden
 {
 	display: none;
 }
-header .header-top a,
-.company button a,
+header .header-top a, .company a,
 .member-login .content button a
 {
 	font-family: Helvetica, Sans-Serif;
@@ -393,11 +391,11 @@ footer p
 	{
 		width: 600px;
 	}
-	.company button
+	.company a
 	{
 		display: none;
 	}
-	.company button.hidden
+	.company a.hidden
 	{
 		display: block;
 		margin-top: 40px;
@@ -490,8 +488,7 @@ footer p
 	{
 		width: 180px;
 	}
-	header .header-top a,
-	.company button a,
+	header .header-top a, .company a,
 	.member-login .content button a,
 	.our-stories p, .member-login .content .form input
 	{
