@@ -470,13 +470,13 @@ footer p
 	{
 		padding: 0 16px 60px;
 	}
-	.company, .member-login
-	{
-		padding: 100px 16px;
-	}
-	.our-stories
+	.company, .our-stories
 	{
 		padding: 60px 16px;
+	}
+	.member-login
+	{
+		padding: 48px 16px;
 	}
 	footer
 	{
