@@ -11,3 +11,11 @@ header
 	padding: 16px 120px;
 	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.05);
 }
+
+@media (max-width: 1400px)
+{
+	header
+	{
+		padding: 16px 80px;
+	}
+}
