@@ -187,8 +187,8 @@ img#back-to-top
 }
 .our-stories .card .content h4
 {
-	text-align: left;
-	margin-top: 46px;
+	position: absolute;
+	bottom: 0;
 }
 .swiper-pagination
 {
