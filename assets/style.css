@@ -233,8 +233,8 @@ img#back-to-top
 .ellipse-3
 {
 	position: absolute;
-	bottom: -24px;
-	right: 74px;
+	top: 0;
+	right: 76px;
 }
 .member-login .content
 {
@@ -542,7 +542,7 @@ footer p
 	}
 	.ellipse-3
 	{
-		width: 60px;
+
 	}
 	.ellipse-4
 	{
