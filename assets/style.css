@@ -565,6 +565,11 @@ footer p
 		width: 320px;
 		height: 548px;
 	}
+	.swiper-button-prev::after,
+	.swiper-button-next::after
+	{
+		bottom: -367px;
+	}
 }
 
 @media
