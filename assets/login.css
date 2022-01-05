@@ -3,3 +3,10 @@ body
 	font-family: Helvetica, Sans-Serif;
 	overflow-x: hidden;
 }
+header
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 16px 120px;
+}
