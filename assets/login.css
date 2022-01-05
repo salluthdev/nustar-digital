@@ -16,6 +16,10 @@ header div
 	display: flex;
 	align-items: center;
 }
+header div h4 a
+{
+	text-decoration: none;
+}
 
 @media (max-width: 1400px)
 {
