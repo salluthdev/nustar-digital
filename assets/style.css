@@ -518,6 +518,11 @@ footer p
 		font-size: 28px;
 		line-height: 33.6px;
 	}
+	.ellipse-2
+	{
+		width: 48px;
+		top: -50px;
+	}
 	.swiper-slide
 	{
 		height: 640px;
