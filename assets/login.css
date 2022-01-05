@@ -11,6 +11,10 @@ header
 	padding: 16px 120px;
 	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.05);
 }
+header div
+{
+	display: flex;
+}
 
 @media (max-width: 1400px)
 {
