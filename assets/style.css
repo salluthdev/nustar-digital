@@ -589,6 +589,7 @@ footer p
 	{
 		background: url('img/header-bg-mobile.png');
 		background-size: cover;
+		background-position: center;
 	}
 }
 
