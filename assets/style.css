@@ -19,7 +19,7 @@ header .header-top
 	padding: 16px 120px;
 }
 header .header-top a, .company a,
-.member-login .content button
+.member-login .content a
 {
 	background: #18abe3;
 	border: none;
@@ -31,7 +31,7 @@ header .header-top a, .company a,
 	display: none;
 }
 header .header-top a, .company a,
-.member-login .content button a
+.member-login .content a
 {
 	font-family: Helvetica, Sans-Serif;
 	font-size: 16px;
@@ -273,7 +273,7 @@ img#back-to-top
 {
 	color: #3a4856;
 }
-.member-login .content button
+.member-login .content a
 {
 	margin-top: 40px;
 }
@@ -489,7 +489,7 @@ footer p
 		width: 180px;
 	}
 	header .header-top a, .company a,
-	.member-login .content button a,
+	.member-login .content a,
 	.our-stories p, .member-login .content .form input
 	{
 		font-size: 14px;
