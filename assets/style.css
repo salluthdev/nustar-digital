@@ -434,6 +434,11 @@ footer p
 	{
 		margin-top: 21px;
 	}
+	.our-stories .card .content h4
+	{
+		top: 0;
+		left: 156px;
+	}
 	.swiper-button-prev
 	{
 		left: 30%;
