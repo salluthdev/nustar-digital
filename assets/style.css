@@ -233,7 +233,7 @@ img#back-to-top
 .ellipse-3
 {
 	position: absolute;
-	top: 0;
+	top: -50px;
 	right: 76px;
 }
 .member-login .content
