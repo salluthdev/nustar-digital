@@ -556,6 +556,10 @@ footer p
 
 @media (max-width: 387px)
 {
+	.swiper-slide
+	{
+		height: 660px;
+	}
 	.our-stories .card
 	{
 		width: 320px;
