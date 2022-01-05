@@ -35,3 +35,11 @@ header
 		padding: 16px;
 	}
 }
+
+@media (max-width: 601px)
+{
+	header img
+	{
+		width: 180px;
+	}
+}
