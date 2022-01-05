@@ -558,6 +558,13 @@ footer p
 
 @media (max-width: 428px)
 {
+	header .header-content
+	{
+		height: 680px;
+		background: url('img/header-bg-mobile.png');
+		background-size: cover;
+		background-position: center;
+	}
 	.swiper-button-prev::after,
 	.swiper-button-next::after
 	{
@@ -580,16 +587,6 @@ footer p
 	.swiper-button-next::after
 	{
 		bottom: -367px;
-	}
-}
-
-@media (max-width: 375px)
-{
-	header .header-content
-	{
-		background: url('img/header-bg-mobile.png');
-		background-size: cover;
-		background-position: center;
 	}
 }
 
