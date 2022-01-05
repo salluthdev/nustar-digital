@@ -545,6 +545,24 @@ footer p
 	}
 }
 
+@media (max-width: 428px)
+{
+	.swiper-button-prev::after,
+	.swiper-button-next::after
+	{
+		bottom: -357px;
+	}
+}
+
+@media (max-width: 387px)
+{
+	.our-stories .card
+	{
+		width: 320px;
+		height: 548px;
+	}
+}
+
 @media
 only screen and (-webkit-min-device-pixel-ratio: 1.5),
 only screen and (-o-min-device-pixel-ratio: 3/2),
