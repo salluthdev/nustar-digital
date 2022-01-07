@@ -103,6 +103,7 @@ footer
 footer p
 {
 	font-size: 14px;
+	color: #3a4856;
 }
 
 @media (max-width: 1400px)
