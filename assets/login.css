@@ -45,7 +45,12 @@ header div span
 }
 .container .sidebar h4
 {
+	position: relative;
 	color: #fff;
+}
+.container .sidebar h4::before
+{
+
 }
 
 @media (max-width: 1400px)
