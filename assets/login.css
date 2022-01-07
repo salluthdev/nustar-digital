@@ -45,12 +45,17 @@ header div span
 }
 .container .sidebar h4
 {
-	position: relative;
 	color: #fff;
 	margin-bottom: 36px;
+}
+.container .sidebar h4,
+.container .main h2
+{
+	position: relative;
 	margin-left: 28px;
 }
-.container .sidebar h4.active::before
+.container .sidebar h4.active::before,
+.container .main h2::before
 {
 	position: absolute;
 	content: '';
@@ -72,6 +77,10 @@ header div span
 .container .main h2
 {
 	color: #004e84;
+}
+.container .main h2::before
+{
+	top: ;
 }
 
 @media (max-width: 1400px)
