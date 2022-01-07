@@ -104,6 +104,7 @@ footer p
 {
 	font-size: 14px;
 	color: #3a4856;
+	line-height: 22.4px;
 }
 
 @media (max-width: 1400px)
