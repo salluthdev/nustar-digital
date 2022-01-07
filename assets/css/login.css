@@ -90,6 +90,11 @@ header div span
 	border-radius: 8px;
 	padding: 30px;
 }
+.container .main .card img
+{
+	width: 734px;
+	height: 415px;
+}
 
 @media (max-width: 1400px)
 {
