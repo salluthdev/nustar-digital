@@ -78,6 +78,7 @@ header div span
 .container .main h2
 {
 	color: #004e84;
+	margin-bottom: 30px;
 }
 .container .main h2::before
 {
