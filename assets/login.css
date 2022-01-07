@@ -83,6 +83,10 @@ header div span
 {
 	top: 0;
 }
+.container .main .card
+{
+	background: #fff;
+}
 
 @media (max-width: 1400px)
 {
