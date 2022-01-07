@@ -67,6 +67,7 @@ header div span
 .container .main
 {
 	background: #f8f8f8;
+	padding: 30px 24px;
 }
 
 @media (max-width: 1400px)
