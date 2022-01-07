@@ -43,6 +43,10 @@ header div span
 	background: #00477c;
 	padding: 52px 140px;
 }
+.container .sidebar h4
+{
+	color: #fff;
+}
 
 @media (max-width: 1400px)
 {
