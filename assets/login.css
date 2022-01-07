@@ -86,6 +86,7 @@ header div span
 .container .main .card
 {
 	background: #fff;
+	border-radius: 8px;
 }
 
 @media (max-width: 1400px)
