@@ -50,7 +50,7 @@ header div span
 }
 .container .sidebar h4::before
 {
-
+	position: absolute;
 }
 
 @media (max-width: 1400px)
