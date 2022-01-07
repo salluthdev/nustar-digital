@@ -94,6 +94,8 @@ header div span
 {
 	width: 734px;
 	height: 415px;
+	object-fit: cover;
+	object-position: center;
 }
 
 @media (max-width: 1400px)
