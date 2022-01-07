@@ -69,6 +69,10 @@ header div span
 	background: #f8f8f8;
 	padding: 30px 24px;
 }
+.container .main h2
+{
+	color: #004e84;
+}
 
 @media (max-width: 1400px)
 {
