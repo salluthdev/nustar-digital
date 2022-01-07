@@ -80,7 +80,7 @@ header div span
 }
 .container .main h2::before
 {
-	top: ;
+	top: 0;
 }
 
 @media (max-width: 1400px)
