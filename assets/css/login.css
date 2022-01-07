@@ -96,6 +96,10 @@ header div span
 	object-fit: cover;
 	object-position: center;
 }
+footer
+{
+	padding: 24px;
+}
 
 @media (max-width: 1400px)
 {
