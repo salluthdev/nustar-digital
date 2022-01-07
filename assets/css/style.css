@@ -40,7 +40,7 @@ header .header-content
 	height: 640px;
 	display: flex;
 	align-items: center;
-	background: url('img/header-bg.png');
+	background: url('../img/header-bg.png');
 	background-size: cover;
 	background-position: right;
 	padding: 0 120px 60px;
@@ -76,7 +76,7 @@ img#back-to-top
 	position: fixed;
 	bottom: 40px;
 	right: 40px;
-	display: none;
+
 	cursor: pointer;
 	z-index: 10;
 }
@@ -554,7 +554,7 @@ footer p
 	header .header-content
 	{
 		height: 680px;
-		background: url('img/header-bg-mobile.png');
+		background: url('../img/header-bg-mobile.png');
 		background-size: cover;
 		background-position: center;
 	}

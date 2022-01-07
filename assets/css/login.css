@@ -33,8 +33,18 @@ header div span
 	color: #dcdcdc;
 	margin: 0 40px;
 }
+img#back-to-top
+{
+	position: fixed;
+	bottom: 40px;
+	right: 40px;
+	display: none;
+	cursor: pointer;
+	z-index: 10;
+}
 .container
 {
+	min-height: 100vh;
 	display: flex;
 }
 .container .sidebar
@@ -71,6 +81,9 @@ header div span
 .container .main
 {
 	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 	background: #f8f8f8;
 	padding: 30px 24px 0;
 }
