@@ -53,7 +53,7 @@ header div span
 {
 	position: absolute;
 	content: '';
-	top: 0;
+	top: -5px;
 	left: -21px;
 	width: 4px;
 	height: 28px;
