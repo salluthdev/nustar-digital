@@ -49,7 +49,7 @@ header div span
 	color: #fff;
 	margin-left: 28px;
 }
-.container .sidebar h4::before
+.container .sidebar h4.active::before
 {
 	position: absolute;
 	content: '';
