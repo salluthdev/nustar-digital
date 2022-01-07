@@ -47,8 +47,8 @@ header div span
 {
 	position: relative;
 	color: #fff;
-	margin-left: 28px;
 	margin-bottom: 36px;
+	margin-left: 28px;
 }
 .container .sidebar h4.active::before
 {
@@ -59,6 +59,10 @@ header div span
 	width: 4px;
 	height: 28px;
 	background: #4babe9;
+}
+.container .sidebar h4:last-child
+{
+	margin-bottom: unset;
 }
 
 @media (max-width: 1400px)
