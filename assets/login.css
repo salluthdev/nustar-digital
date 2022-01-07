@@ -64,6 +64,10 @@ header div span
 {
 	margin-bottom: unset;
 }
+.container .main
+{
+	background: #f8f8f8;
+}
 
 @media (max-width: 1400px)
 {
