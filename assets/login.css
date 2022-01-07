@@ -30,6 +30,10 @@ header div span
 {
 	display: flex;
 }
+.container .sidebar
+{
+	width: 400px;
+}
 
 @media (max-width: 1400px)
 {
