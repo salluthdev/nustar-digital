@@ -54,6 +54,7 @@ header div span
 	content: '';
 	top: 0;
 	left: 0;
+	width: 4px;
 }
 
 @media (max-width: 1400px)
