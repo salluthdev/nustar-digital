@@ -54,7 +54,7 @@ header div span
 	position: absolute;
 	content: '';
 	top: 0;
-	left: 0;
+	left: -19.2px;
 	width: 4px;
 	height: 20px;
 	background: #4babe9;
