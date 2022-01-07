@@ -47,14 +47,14 @@ header div span
 {
 	position: relative;
 	color: #fff;
-	margin-left: 21px;
+	margin-left: 24px;
 }
 .container .sidebar h4::before
 {
 	position: absolute;
 	content: '';
 	top: 0;
-	left: -19.2px;
+	left: -21px;
 	width: 4px;
 	height: 20px;
 	background: #4babe9;
