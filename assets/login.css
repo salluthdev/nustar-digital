@@ -87,6 +87,7 @@ header div span
 {
 	background: #fff;
 	border-radius: 8px;
+	padding: 30px;
 }
 
 @media (max-width: 1400px)
