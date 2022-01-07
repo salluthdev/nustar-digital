@@ -26,6 +26,10 @@ header div span
 	color: #dcdcdc;
 	margin: 0 40px;
 }
+.container
+{
+	display: flex;
+}
 
 @media (max-width: 1400px)
 {
