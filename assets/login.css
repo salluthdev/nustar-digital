@@ -21,6 +21,10 @@ header div h4 a
 	color: #3a4856;
 	text-decoration: none;
 }
+header div span
+{
+	color: #dcdcdc;
+}
 
 @media (max-width: 1400px)
 {
