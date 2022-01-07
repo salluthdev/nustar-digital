@@ -33,6 +33,7 @@ header div span
 .container .sidebar
 {
 	width: 400px;
+	background: #00477c;
 }
 
 @media (max-width: 1400px)
