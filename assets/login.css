@@ -65,6 +65,10 @@ header div span
 	{
 		padding: 16px 80px;
 	}
+	.container .sidebar
+	{
+		padding: 52px 80px;
+	}
 }
 
 @media (max-width: 1267px)
