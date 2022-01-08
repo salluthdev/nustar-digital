@@ -72,6 +72,10 @@ header .btn-close
 	visibility: hidden;
 	cursor: pointer;
 }
+header .btn-close i
+{
+	padding: 8px 10.5px;
+}
 header .side-nav h4,
 .container .sidebar h4
 {
