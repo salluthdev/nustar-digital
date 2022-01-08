@@ -182,6 +182,7 @@ img#back-to-top
 }
 .container .main .card .accordion .content_box .title i
 {
+	color: #18abe3;
 	transition: 0.5s;
 }
 .container .main .card .accordion .content_box.active .title i
