@@ -172,7 +172,6 @@ img#back-to-top
 }
 .container .main .card .accordion .content_box .title
 {
-	position: relative;
 	display: flex;
 	justify-content: space-between;
 	cursor: pointer;
@@ -187,7 +186,6 @@ img#back-to-top
 }
 .container .main .card .accordion .content_box .content
 {
-	position: relative;
 	background: #fff;
 	height: 0;
 	overflow: hidden;
