@@ -177,6 +177,10 @@ img#back-to-top
 	justify-content: space-between;
 	cursor: pointer;
 }
+.accordion .content_box .title i
+{
+	transition: 0.5s;
+}
 .accordion .content_box.active .title i
 {
 	transform: translateY(-50%) rotate(0.5turn);
