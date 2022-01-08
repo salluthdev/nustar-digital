@@ -212,6 +212,7 @@ img#back-to-top
 {
 	border: 1px solid rgba(0, 0, 0, 0.12);
 	border-bottom: unset;
+	margin: 24px 0;
 }
 footer
 {
