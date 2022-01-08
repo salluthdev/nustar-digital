@@ -177,20 +177,6 @@ img#back-to-top
 	background: #ddd;
 	cursor: pointer;
 }
-.accordion .content_box .title::before
-{
-	content: '';
-	position: absolute;
-	top: 50%;
-	right: 0;
-	transform: translateY(-50%);
-	width: 12px;
-  	height: 6px;
-	background-image: '<i class="fas fa-chevron-down"></i>';
-  	background-size: contain;
-  	background-repeat: no-repeat;
-  	transition: transform 0.4s;
-}
 .accordion .content_box.active .title::before
 {
 	content: '';
