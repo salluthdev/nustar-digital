@@ -35,9 +35,13 @@ header .nav span
 }
 header .btn-menu
 {
+	display: none;
+}
+header .btn-menu,
+header .btn-close
+{
 	position: absolute;
 	right: 24px;
-	display: none;
 	cursor: pointer;
 }
 header i
@@ -67,10 +71,7 @@ header .side-nav.active
 }
 header .btn-close
 {
-	position: absolute;
-	right: 24px;
 	visibility: hidden;
-	cursor: pointer;
 }
 header .btn-close i
 {
