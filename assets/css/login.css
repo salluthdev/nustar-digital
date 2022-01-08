@@ -186,8 +186,8 @@ img#back-to-top
 }
 .container .main .card .accordion .content_box .content
 {
-	background: #fff;
 	height: 0;
+	background: #fff;
 	overflow: hidden;
 	overflow-y: auto;
 	transition: 0.5s;
