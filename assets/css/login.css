@@ -208,6 +208,11 @@ img#back-to-top
 	object-position: center;
 	margin: 32px 0 24px;
 }
+.container .main .card .accordion hr
+{
+	border: 1px solid rgba(0, 0, 0, 0.12);
+	border-bottom: unset;
+}
 footer
 {
 	padding: 24px 0;
