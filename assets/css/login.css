@@ -170,13 +170,14 @@ img#back-to-top
 {
 	margin: 10px 0;
 }
-.accordion .content_box .label
+.accordion .content_box .title-box
 {
 	position: relative;
+	display: flex;
 	background: #ddd;
 	cursor: pointer;
 }
-.accordion .content_box .label::before
+.accordion .content_box .title-box::before
 {
 	content: '';
 	position: absolute;
@@ -185,12 +186,12 @@ img#back-to-top
 	transform: translateY(-50%);
 	width: 12px;
   	height: 6px;
-	background-image: '<i class="fas fa-times"></i>';
+	background-image: '<i class="fas fa-chevron-down"></i>';
   	background-size: contain;
   	background-repeat: no-repeat;
   	transition: transform 0.4s;
 }
-.accordion .content_box.active .label::before
+.accordion .content_box.active .title-box::before
 {
 	content: '';
 	transform: translateY(-50%) rotate(0.5turn);
