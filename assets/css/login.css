@@ -173,9 +173,7 @@ img#back-to-top
 .accordion .content_box .label
 {
 	position: relative;
-	padding: 10px;
-	background: #2694af;
-	color: #fff;
+	background: #ddd;
 	cursor: pointer;
 }
 .accordion .content_box .label::before
