@@ -1,4 +1,4 @@
-// Sidebar Navigation
+// Sidebar Navigation - Jquery
 $(document).ready(function(){
   $('.btn-menu').click(function(){
     $('.side-nav').addClass('active');
