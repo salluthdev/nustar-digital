@@ -111,6 +111,11 @@ header .side-nav h4:last-child,
 {
 	margin-bottom: unset;
 }
+header .side-nav h4 a,
+.container .sidebar h4 a
+{
+	text-decoration: none;
+}
 img#back-to-top
 {
 	position: fixed;
