@@ -181,7 +181,7 @@ img#back-to-top
 	content: '';
 	position: absolute;
 	top: 50%;
-	right: 20px;
+	right: 0;
 	transform: translateY(-50%);
 	width: 12px;
   	height: 6px;
