@@ -168,7 +168,7 @@ img#back-to-top
 }
 .container .main .card .accordion .content_box
 {
-	
+	padding: 0 7px;
 }
 .container .main .card .accordion .content_box .title
 {
