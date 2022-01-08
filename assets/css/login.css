@@ -198,7 +198,7 @@ img#back-to-top
 }
 .container .main .card .accordion .content_box.active .content
 {
-	height: 500px;
+	height: 460px;
 }
 .container .main .card .accordion .content_box img
 {
@@ -206,7 +206,7 @@ img#back-to-top
 	max-height: 415px;
 	object-fit: cover;
 	object-position: center;
-	margin: 32px 0 24px;
+	margin-top: 32px;
 }
 .container .main .card .accordion hr
 {
