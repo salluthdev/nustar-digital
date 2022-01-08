@@ -35,8 +35,6 @@ header .nav span
 }
 header .btn-menu
 {
-	width: 32px;
-	height: 32px;
 	position: absolute;
 	right: 24px;
 	display: none;
