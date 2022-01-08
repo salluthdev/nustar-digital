@@ -176,6 +176,10 @@ img#back-to-top
 	justify-content: space-between;
 	cursor: pointer;
 }
+.container .main .card .accordion .content_box .title h4
+{
+	color: #3a4856;
+}
 .container .main .card .accordion .content_box .title i
 {
 	transition: 0.5s;
