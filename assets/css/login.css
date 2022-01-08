@@ -175,7 +175,6 @@ img#back-to-top
 	position: relative;
 	display: flex;
 	justify-content: space-between;
-	background: #ddd;
 	cursor: pointer;
 }
 .accordion .content_box.active .title::before
