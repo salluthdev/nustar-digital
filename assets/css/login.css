@@ -170,14 +170,14 @@ img#back-to-top
 {
 	margin: 10px 0;
 }
-.accordion .content_box .title-box
+.accordion .content_box .title
 {
 	position: relative;
 	display: flex;
 	background: #ddd;
 	cursor: pointer;
 }
-.accordion .content_box .title-box::before
+.accordion .content_box .title::before
 {
 	content: '';
 	position: absolute;
@@ -191,7 +191,7 @@ img#back-to-top
   	background-repeat: no-repeat;
   	transition: transform 0.4s;
 }
-.accordion .content_box.active .title-box::before
+.accordion .content_box.active .title::before
 {
 	content: '';
 	transform: translateY(-50%) rotate(0.5turn);
