@@ -263,9 +263,9 @@ footer p
 	{
 		visibility: hidden !important;
 	}
-	header .side-nav
+	header .side-nav, .dark
 	{
-		display: none;
+		display: none !important;
 	}
 }
 
