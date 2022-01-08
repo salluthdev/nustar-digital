@@ -33,6 +33,7 @@ function topFunction() {
   document.documentElement.scrollTop = 0;
 }
 
+// Acordion Menu
 const accordion = document.getElementsByClassName('content_box');
 
 for (i = 0; i < accordion.length; i++){
