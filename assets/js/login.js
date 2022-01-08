@@ -32,3 +32,11 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+const accordion = document.getElementsByClassName('content_box');
+
+for (i = 0; i < accordion.length; i++){
+  accordion[i].addEventListener('click', function(){
+    this.classList.toggle('active')
+  })
+}
