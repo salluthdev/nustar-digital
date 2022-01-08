@@ -166,26 +166,26 @@ img#back-to-top
 	border-radius: 8px;
 	padding: 30px;
 }
-.accordion .content_box
+.container .main .card .accordion .content_box
 {
 	margin: 10px 0;
 }
-.accordion .content_box .title
+.container .main .card .accordion .content_box .title
 {
 	position: relative;
 	display: flex;
 	justify-content: space-between;
 	cursor: pointer;
 }
-.accordion .content_box .title i
+.container .main .card .accordion .content_box .title i
 {
 	transition: 0.5s;
 }
-.accordion .content_box.active .title i
+.container .main .card .accordion .content_box.active .title i
 {
 	transform: translateY(-50%) rotate(0.5turn);
 }
-.accordion .content_box .content
+.container .main .card .accordion .content_box .content
 {
 	position: relative;
 	background: #fff;
@@ -194,7 +194,7 @@ img#back-to-top
 	overflow-y: auto;
 	transition: 0.5s;
 }
-.accordion .content_box.active .content
+.container .main .card .accordion .content_box.active .content
 {
 	height: 500px;
 }
