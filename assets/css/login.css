@@ -175,6 +175,7 @@ img#back-to-top
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	padding-right: 4px;
 	cursor: pointer;
 }
 .container .main .card .accordion .content_box .title h4
@@ -188,7 +189,7 @@ img#back-to-top
 }
 .container .main .card .accordion .content_box.active .title i
 {
-	transform: translateY(-50%) rotate(0.5turn);
+	transform: rotate(0.5turn);
 }
 .container .main .card .accordion .content_box .content
 {
