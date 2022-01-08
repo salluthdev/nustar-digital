@@ -12,11 +12,17 @@ body
 }
 header
 {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	background: #fff;
 	padding: 16px 120px;
 	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.05);
+	z-index: 100;
 }
 header .nav
 {
@@ -54,13 +60,13 @@ header i
 header .side-nav
 {
 	width: 280px;
-	height: 100%;
+	height: 100vh;
 	position: absolute;
 	top: 92px;
 	left: -100%;
 	background: #00477c;
 	padding-top: 24px;
-	overflow-y: auto;
+	overflow: hidden;
 	transition: 0.6s ease;
 	transition-property: left;
 	z-index: 10;
@@ -117,6 +123,23 @@ header .side-nav h4 a,
 	color: #fff;
 	text-decoration: none;
 }
+header .side-nav .bottom
+{
+	position: absolute;
+	bottom: 127px;
+	left: 48px;
+	display: flex;
+}
+header .side-nav .bottom h4
+{
+	margin: unset;
+}
+header .side-nav .bottom span
+{
+	width: 1px;
+	color: rgba(255, 255, 255, 0.5);
+	margin: 0 40px;
+}
 img#back-to-top
 {
 	position: fixed;
@@ -129,14 +152,15 @@ img#back-to-top
 .container
 {
 	position: relative;
-	min-height: 100vh;
+	height: 100%;
 	display: flex;
+	margin-top: 92px;
 }
 .dark
 {
 	width: 100%;
 	height: 100%;
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: 0;
 	display: none;
@@ -285,7 +309,15 @@ footer p
 	}
 	.container .main .card img
 	{
-		width: 100%;
+		width: 100% !important;
+	}
+}
+
+@media (max-width: 768px)
+{
+	.container .main .card .accordion .content_box.active .content
+	{
+		height: 400px;
 	}
 }
 
@@ -307,6 +339,14 @@ footer p
 	{
 		left: -18px;
 	}
+	header .side-nav .bottom
+	{
+		bottom: 105.3px;
+	}
+	.container
+	{
+		margin-top: 70.3px;
+	}
 	.container .main
 	{
 		padding: 30px 0 0;
@@ -319,6 +359,11 @@ footer p
 	.container .main .card
 	{
 		border-radius: unset;
+		padding: 30px 16px;
+	}
+	.container .main .card .accordion .content_box.active .content
+	{
+		height: 320px;
 	}
 	footer
 	{
@@ -336,5 +381,41 @@ footer p
 	header img.logo
 	{
 		width: 180px;
+	}
+	.container .main .card .accordion .content_box.active .content
+	{
+		height: 280px;
+	}
+}
+
+@media (max-width: 467px)
+{
+	.container .main .card .accordion .content_box.active .content
+	{
+		height: 260px;
+	}
+}
+
+@media (max-width: 411px)
+{
+	.container .main .card .accordion .content_box.active .content
+	{
+		height: 240px;
+	}
+}
+
+@media (max-width: 360px)
+{
+	.container .main .card .accordion .content_box.active .content
+	{
+		height: 210px;
+	}
+}
+
+@media (max-width: 320px)
+{
+	.container .main .card .accordion .content_box.active .content
+	{
+		height: 190px;
 	}
 }
