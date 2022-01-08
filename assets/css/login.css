@@ -199,12 +199,13 @@ img#back-to-top
 {
 	height: 500px;
 }
-.container .main .card img
+.container .main .card .accordion .content_box img
 {
 	width: 734px;
 	max-height: 415px;
 	object-fit: cover;
 	object-position: center;
+	margin: 32px 0 24px;
 }
 footer
 {
