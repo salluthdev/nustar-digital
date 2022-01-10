@@ -257,7 +257,7 @@ img#back-to-top
 	color: #004e84;
 	margin: 50px 0 32px;
 }
-.container .main a
+.container .main .button a
 {
 	background: #18abe3;
 	font-family: Helvetica, Sans-Serif;
@@ -267,8 +267,9 @@ img#back-to-top
 	text-decoration: unset;
 	border-radius: 10px;
 	padding: 10px 22px;
+	margin: 40px 0;
 }
-.container .main a i
+.container .main .button a i
 {
 	margin-right: 8px;
 }
