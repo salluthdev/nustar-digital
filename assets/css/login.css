@@ -169,9 +169,13 @@ img#back-to-top
 }
 .container .sidebar
 {
-	position: fixed;
+	width: 400px;
 	background: #00477c;
 	padding: 52px 120px;
+}
+.container .sidebar .content
+{
+	position: fixed;
 }
 .container .main
 {
