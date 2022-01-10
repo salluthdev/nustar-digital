@@ -346,7 +346,7 @@ footer p
 	.container
 	{
 		min-height: 100vh;
-		margin-top: 70.3px;
+		padding-top: 70.3px;
 	}
 	.container .main
 	{
