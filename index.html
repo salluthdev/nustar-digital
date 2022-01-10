@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Home - Nustar Digital Academy</title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 	<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
@@ -13,7 +14,37 @@
 	<header>
 		<div class="header-top">
 			<img src="assets/img/nustar-logo.png">
-			<a href="login/member-area.html">Member Log In</a>
+			<div class="public">
+				<a href="#member-login" class="btn">Member Log In</a>
+			</div>
+			<!-- Login Success -->
+			<div class="log-success">
+				<!-- Login Success (Dekstop) -->
+				<div class="log-success-desktop">
+					<a href="login/member-area.html" class="btn">Member Area</a>
+					<h4>Log Out</h4>
+				</div>
+
+				<!-- Login Success (Mobile) -->
+				<div class="log-success-mobile">
+					<div class="btn-menu">
+						<i class="fas fa-bars"></i>
+					</div>
+					<div class="btn-close">
+						<i class="fas fa-times"></i>
+					</div>
+					<div class="side-nav">
+						<h4><a href="member-area.html">Member Area</a></h4>
+						<h4 class="active"><a href="cara-memulai.html">Cara Memulai</a></h4>
+						<h4><a href="mindset-training.html">Mindset Training</a></h4>
+						<h4><a href="skill-training.html">Skill Training</a></h4>
+						<h4><a href="product-knowledge.html">Product Knowledge</a></h4>
+						<div class="bottom">
+							<h4><a href="../index.html">Log Out</a></h4>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 		<div class="header-content">
 			<img src="assets/img/ellipse-1.png" class="ellipse-1">
@@ -22,6 +53,9 @@
 		</div>
 	</header>
 	<img src="assets/img/back-to-top.png" onclick="topFunction()" id="back-to-top">
+	<div class="dark"></div>
+
+	<!-- Company -->
 	<div class="company">
 		<a href="#" class="hidden">Visit Our Company Partner</a>
 		<img src="assets/img/company-image.png">
@@ -96,7 +130,7 @@
 	</div>
 
 	<!-- Member Login -->
-	<div class="member-login">
+	<div class="member-login" id="member-login">
 		<img src="assets/img/ellipse-3.png" class="ellipse-3">
 		<div class="content">
 			<h1>Member Log In</h1>
@@ -115,6 +149,7 @@
 		<p>&copy; 2021 Nustar All Rights Reserved | Independent Distributor Produced Website - This website is not produced, approved, endorsed, offered, or recommended by Nu Skin Enterprises United States, Inc. or its affiliates.</p>
 	</footer>
 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 	<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 	<script type="text/javascript" src="assets/js/script.js"></script>
 </body>

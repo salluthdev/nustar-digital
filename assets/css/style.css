@@ -13,12 +13,18 @@ body
 }
 header .header-top
 {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	background: #fff;
 	padding: 16px 120px;
+	z-index: 100;
 }
-header .header-top a, .company a,
+header .header-top a.btn, .company a,
 .member-login .content a
 {
 	background: #18abe3;
@@ -31,19 +37,113 @@ header .header-top a, .company a,
 	border-radius: 10px;
 	padding: 10px 22px;
 }
-.company a.hidden
+header .header-top .public
+{
+	display: block;
+}
+header .header-top .log-success
 {
 	display: none;
 }
+header .header-top .log-success .log-success-desktop
+{
+	display: flex;
+	align-items: center;
+}
+header .header-top .log-success .log-success-desktop h4
+{
+	color: #3a4856;
+	margin-left: 40px;
+}
+header .btn-menu
+{
+	display: none;
+}
+header .btn-menu,
+header .btn-close
+{
+	position: absolute;
+	right: 24px;
+	transform: translateY(-50%);
+	cursor: pointer;
+}
+header i
+{
+	color: #fff;
+	background: #18abe3;
+	border-radius: 50%;
+	padding: 8px 9px;
+}
+header .side-nav
+{
+	width: 280px;
+	height: 100vh;
+	position: absolute;
+	top: 92px;
+	left: -100%;
+	background: #00477c;
+	padding-top: 24px;
+	overflow: hidden;
+	transition: 0.6s ease;
+	transition-property: left;
+	z-index: 10;
+}
+header .side-nav.active
+{
+	left: 0;
+}
+header .btn-close
+{
+	visibility: hidden;
+}
+header .btn-close i
+{
+	padding: 8px 10.5px;
+}
+header .side-nav h4
+{
+	color: #fff;
+	margin-bottom: 36px;
+}
+header .side-nav h4
+{
+	position: relative;
+	margin-left: 28px;
+}
+header .side-nav h4.active::before
+{
+	left: -27px;
+}
+header .side-nav h4:last-child,
+.container .sidebar h4:last-child
+{
+	margin-bottom: unset;
+}
+header .side-nav h4 a
+{
+	color: #fff;
+	text-decoration: none;
+}
+header .side-nav .bottom
+{
+	position: absolute;
+	bottom: 127px;
+	left: 110px;
+}
+header .side-nav .bottom h4
+{
+	margin: unset;
+}
 header .header-content
 {
+	position: relative;
 	height: 640px;
 	display: flex;
 	align-items: center;
 	background: url('../img/header-bg.png');
 	background-size: cover;
 	background-position: right;
-	padding: 0 120px 60px;
+	padding: 92px 120px 60px;
 	border-bottom: 1px solid #fff;
 }
 header .header-content, .member-login
@@ -76,9 +176,19 @@ img#back-to-top
 	position: fixed;
 	bottom: 40px;
 	right: 40px;
-
 	cursor: pointer;
 	z-index: 10;
+}
+.dark
+{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: none;
+	background: rgba(0, 0, 0, 0.5);
+	z-index: 1;
 }
 .company
 {
@@ -89,6 +199,10 @@ img#back-to-top
 	display: flex;
 	align-items: center;
 	padding: 100px 120px;
+}
+.company a.hidden
+{
+	display: none;
 }
 .company .company-content
 {
@@ -299,7 +413,7 @@ footer p
 	}
 	header .header-content
 	{
-		padding: 0 80px 60px;
+		padding: 92px 80px 60px;
 	}
 	.company, .member-login
 	{
@@ -331,7 +445,7 @@ footer p
 	}
 	header .header-content
 	{
-		padding: 0 40px 60px;
+		padding: 92px 40px 60px;
 	}
 	.company, .member-login
 	{
@@ -355,12 +469,32 @@ footer p
 	}
 }
 
+@media (min-width: 1127px)
+{
+	header .btn-close
+	{
+		visibility: hidden !important;
+	}
+	header .side-nav, .dark
+	{
+		display: none !important;
+	}
+}
+
 @media (max-width: 1127px)
 {
+	header .log-success-desktop
+	{
+		display: none !important;
+	}
+	header .btn-menu
+	{
+		display: block;
+	}
 	header .header-content
 	{
 		flex-direction: column;
-		padding: 40px 40px 60px;
+		padding: 132px 40px 60px;
 	}
 	header .header-content
 	{
@@ -460,9 +594,25 @@ footer p
 	{
 		padding: 16px;
 	}
+	header .header-top img
+	{
+		width: 180px;
+	}
+	header .side-nav
+	{
+		top: 70.3px;
+	}
+	header .side-nav h4
+	{
+		margin-left: 18px;
+	}
+	header .side-nav .bottom
+	{
+		bottom: 105.3px;
+	}
 	header .header-content
 	{
-		padding: 0 16px 60px;
+		padding: 70.3px 16px 60px;
 	}
 	.company, .our-stories
 	{
@@ -480,11 +630,7 @@ footer p
 
 @media (max-width: 601px)
 {
-	header .header-top img
-	{
-		width: 180px;
-	}
-	header .header-top a, .company a,
+	header .header-top a.btn, .company a,
 	.member-login .content a,
 	.our-stories p, .member-login .content .form input
 	{
