@@ -154,7 +154,7 @@ img#back-to-top
 	position: relative;
 	height: 100%;
 	display: flex;
-	margin-top: 92px;
+	padding-top: 92px;
 }
 .dark
 {
