@@ -251,6 +251,10 @@ img#back-to-top
 	border-bottom: unset;
 	margin: 24px 0;
 }
+.container .main h3
+{
+	font-size: 20px;
+}
 footer
 {
 	padding: 24px 0;
