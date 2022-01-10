@@ -389,6 +389,11 @@ footer p
 		font-size: 20px;
 		margin-left: 44px;
 	}
+	.container .main h3
+	{
+		font-size: 18px;
+		margin-left: 16px;
+	}
 	.container .main .card
 	{
 		border-radius: unset;
