@@ -283,6 +283,7 @@ footer p
 	}
 	.container .sidebar
 	{
+		width: 300px;
 		padding: 52px 40px;
 	}
 }
